@@ -174,8 +174,8 @@ export default function Footer({ data }: FooterProps) {
                   const props = isLink
                     ? {
                         href: contact.href,
-                        target: contact.href.startsWith('http') ? '_blank' : undefined,
-                        rel: contact.href.startsWith('http') ? 'noopener noreferrer' : undefined,
+                        target: contact.href?.startsWith('http') ? '_blank' : undefined,
+                        rel: contact.href?.startsWith('http') ? 'noopener noreferrer' : undefined,
                         className: 'group flex items-center gap-3 text-sm text-[var(--color-ink-100)] opacity-80 transition-all duration-300 ease-out hover:opacity-100 hover:text-[var(--color-rose-gold-300)] active:scale-95 cursor-pointer min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[var(--color-rose-gold-500)] rounded-lg px-2 -ml-2',
                       }
                     : { className: 'flex items-center gap-3 text-sm text-[var(--color-ink-100)] opacity-80 py-2' }

@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/Laila-Estetica-Lp-React-Ts/',
   server: {
     watch: {
       usePolling: true,
