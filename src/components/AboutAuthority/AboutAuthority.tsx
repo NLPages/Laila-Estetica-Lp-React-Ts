@@ -26,7 +26,7 @@ export default function AboutAuthority({ data }: AboutAuthorityProps) {
       id="sobre"
       aria-labelledby="sobre-titulo"
       className="section-padding"
-      style={{ background: 'var(--color-champagne-50)' }}
+      style={{ background: '#ffffff' }}
     >
       <div className="section-container">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">

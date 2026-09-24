@@ -214,7 +214,15 @@ export default function Footer({ data }: FooterProps) {
         {/* ── BOTTOM FOOTER ── */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[var(--color-ink-300)] text-center md:text-left">
           <p>
-            {data.copyright}
+            © {data.copyright} Laila Pinheiro Estética. Todos os direitos reservados. Desenvolvido por{' '}
+            <a 
+              href={data.developer.url} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="underline hover:text-[var(--color-rose-gold-500)] transition-colors duration-300"
+            >
+              {data.developer.name}
+            </a>
           </p>
           <p className="max-w-2xl opacity-75">
             {data.disclaimer}

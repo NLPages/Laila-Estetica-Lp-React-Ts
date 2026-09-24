@@ -34,8 +34,8 @@ function App() {
 
       <main id="main-content">
         <HeroSection data={heroData} />
-        <SocialProof data={socialProofData} />
         <ServicesGrid data={servicesData} />
+        <SocialProof data={socialProofData} />
         <AboutAuthority data={aboutData} />
         <FAQ data={faqData} />
       </main>

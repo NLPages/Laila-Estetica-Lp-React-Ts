@@ -156,7 +156,7 @@ export default function SocialProof({ data }: SocialProofProps) {
       id="depoimentos"
       aria-labelledby="depoimentos-titulo"
       className="section-padding"
-      style={{ background: '#ffffff' }}
+      style={{ background: 'var(--color-champagne-50)' }}
     >
       <div className="section-container max-w-7xl mx-auto">
 

@@ -271,7 +271,8 @@ export interface FooterData {
   /** Redes sociais */
   socialLinks: SocialLink[];
   /** Texto de copyright */
-  copyright: string;
+  copyright: number;
+  developer: { name: string; url: string };
   /** Aviso legal/disclaimer estético */
   disclaimer: string;
 }

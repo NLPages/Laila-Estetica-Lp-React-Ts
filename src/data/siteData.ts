@@ -486,7 +486,12 @@ export const footerData: FooterData = {
       icon: 'tiktok',
     },
   ],
-  copyright: `© ${new Date().getFullYear()} Laila Pinheiro Estética. Todos os direitos reservados.`,
+copyright: new Date().getFullYear(),
+  // Criamos um objeto para os seus dados
+  developer: {
+    name: 'Tiago Noronha | NLPages',
+    url: 'https://www.nlpages.com.br'
+  },
   disclaimer:
     'Os resultados dos tratamentos estéticos variam de pessoa para pessoa. Procedimentos realizados por profissional qualificada. As informações deste site têm caráter informativo e não substituem a avaliação presencial.',
 };

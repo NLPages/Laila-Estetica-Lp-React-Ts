@@ -135,7 +135,7 @@ export default function ServicesGrid({ data }: ServicesGridProps) {
       id="servicos"
       aria-labelledby="servicos-titulo"
       className="section-padding"
-      style={{ background: 'var(--color-champagne-50)' }}
+      style={{ background: '#ffffff' }}
     >
       <div className="section-container max-w-7xl mx-auto">
 

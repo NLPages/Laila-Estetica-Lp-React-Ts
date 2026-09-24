@@ -189,7 +189,7 @@ export default function FAQ({ data }: FAQProps) {
       id="faq"
       aria-labelledby="faq-titulo"
       className="section-padding"
-      style={{ background: '#ffffff' }}
+      style={{ background: 'var(--color-champagne-50)' }}
     >
       {/* Schema.org FAQPage markup */}
       <script
